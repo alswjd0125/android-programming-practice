@@ -1,0 +1,45 @@
+# Gradle caches and build output (all project levels)
+.gradle/
+build/
+
+# Android Studio / IntelliJ local settings
+.idea/
+*.iml
+*.ipr
+*.iws
+local.properties
+
+# Native build caches and profiling output
+.cxx/
+.externalNativeBuild/
+captures/
+*.hprof
+
+# Compiled artifacts and logs
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.log
+
+# Local signing credentials
+*.jks
+*.keystore
+keystore.properties
+
+# OS metadata and editor temporary files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Duplicate starter project excluded from this repository
+/Week5Example/
+
+# Keep Gradle Wrapper and shared build configuration tracked.
+# gradle/ is required; only .gradle/ is a cache.
+!**/gradle/wrapper/gradle-wrapper.jar
